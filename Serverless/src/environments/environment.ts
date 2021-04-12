@@ -3,7 +3,29 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase : {
+    apiKey: "AIzaSyAzOyzCbtjT3oYtYBSAMtuVpzAxEGFkhb0",
+  authDomain: "serverlessweek2.firebaseapp.com",
+  databaseURL: "https://serverlessweek2-default-rtdb.firebaseio.com",
+  projectId: "serverlessweek2",
+  storageBucket: "serverlessweek2.appspot.com",
+  messagingSenderId: "971777653815",
+  appId: "1:971777653815:web:98d8f780229b09fa2793b2",
+  measurementId: "G-YJZXDMK08T"
+  }
+};
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAzOyzCbtjT3oYtYBSAMtuVpzAxEGFkhb0",
+  authDomain: "serverlessweek2.firebaseapp.com",
+  databaseURL: "https://serverlessweek2-default-rtdb.firebaseio.com",
+  projectId: "serverlessweek2",
+  storageBucket: "serverlessweek2.appspot.com",
+  messagingSenderId: "971777653815",
+  appId: "1:971777653815:web:98d8f780229b09fa2793b2",
+  measurementId: "G-YJZXDMK08T"
 };
 
 /*
